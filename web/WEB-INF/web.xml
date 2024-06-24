@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="5.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd">
+   
+    <servlet>
+        <servlet-name>AddAppointment</servlet-name>
+        <servlet-class>com.user.servlet.AppointmentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddAppointment</servlet-name>
+        <url-pattern>/AddAppointment</url-pattern>
+    </servlet-mapping> 
+    
+    <servlet>
+        <servlet-name>DoctorPasswordChange</servlet-name>
+        <servlet-class>com.doctor.servlet.DoctorPasswordChange</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoctorPasswordChange</servlet-name>
+        <url-pattern>/DoctorPasswordChange</url-pattern>
+    </servlet-mapping> 
+
+    <servlet>
+        <servlet-name>EditProfile</servlet-name>
+        <servlet-class>com.doctor.servlet.EditProfile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditProfile</servlet-name>
+        <url-pattern>/EditProfile</url-pattern>
+    </servlet-mapping> 
+
+
+    <servlet>
+        <servlet-name>changePassword</servlet-name>
+        <servlet-class>com.user.servlet.changePassword</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>changePassword</servlet-name>
+        <url-pattern>/changePassword</url-pattern>
+    </servlet-mapping> 
+
+    
+    <servlet>
+        <servlet-name>UpdateStatus</servlet-name>
+        <servlet-class>com.doctor.servlet.UpdateStatus</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateStatus</servlet-name>
+        <url-pattern>/UpdateStatus</url-pattern>
+    </servlet-mapping> 
+    
+    
+    
+    
+    <servlet>
+        <servlet-name>DoctorLogin</servlet-name>
+        <servlet-class>com.doctor.servlet.DoctorLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoctorLogin</servlet-name>
+        <url-pattern>/DoctorLogin</url-pattern>
+    </servlet-mapping> 
+    
+    
+        <servlet>
+        <servlet-name>DoctorLogout</servlet-name>
+        <servlet-class>com.doctor.servlet.DoctorLogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoctorLogout</servlet-name>
+        <url-pattern>/DoctorLogout</url-pattern>
+    </servlet-mapping> 
+    
+    
+    <servlet>
+        <servlet-name>AddDoctor</servlet-name>
+        <servlet-class>com.admin.servlet.AddDoctor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddDoctor</servlet-name>
+        <url-pattern>/AddDoctor</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>DeleteDoctor</servlet-name>
+        <servlet-class>com.admin.servlet.DeleteDoctor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteDoctor</servlet-name>
+        <url-pattern>/DeleteDoctor</url-pattern>
+    </servlet-mapping>
+    
+  
+    <servlet>
+        <servlet-name>UpdateDoctor</servlet-name>
+        <servlet-class>com.admin.servlet.UpdateDoctor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateDoctor</servlet-name>
+        <url-pattern>/UpdateDoctor</url-pattern>
+    </servlet-mapping>
+    
+
+    <servlet>
+        <servlet-name>UserRegister</servlet-name>
+        <servlet-class>com.user.servlet.UserRegister</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserRegister</servlet-name>
+        <url-pattern>/UserRegister</url-pattern>
+    </servlet-mapping>
+    
+        
+    <servlet>
+        <servlet-name>AddSpecialist</servlet-name>
+        <servlet-class>com.admin.servlet.AddSpecialist</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddSpecialist</servlet-name>
+        <url-pattern>/AddSpecialist</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UserLogout</servlet-name>
+        <servlet-class>com.user.servlet.UserLogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLogout</servlet-name>
+        <url-pattern>/UserLogout</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>UserLogin</servlet-name>
+        <servlet-class>com.user.servlet.UserLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLogin</servlet-name>
+        <url-pattern>/UserLogin</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>AdminLogout</servlet-name>
+        <servlet-class>com.admin.servlet.AdminLogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLogout</servlet-name>
+        <url-pattern>/AdminLogout</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>AdminLogin</servlet-name>
+        <servlet-class>com.admin.servlet.AdminLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLogin</servlet-name>
+        <url-pattern>/AdminLogin</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>
